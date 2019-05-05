@@ -1,41 +1,36 @@
-<!DOCTYPE = html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="description" content="Portfolio Page">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="main.css">
-	</head>
-	<body>
-		<header class="container">
-			<div class="logoContainer">
-				<img class="logo" src="resources/spideyLogo.jpg">
-			</div>
-			<div class="nameAndTitle">
-				<h1 id="name">Peter Parker</h1>
-				<h4 id="title">Spooder-man</h4>
-			</div>
-		</header>
-		<section class="mainImageContainer">
-			<img class="mainImage" src="resources/SpiderMain.jpg">
-		</section>
-		<section class="workContainer">
-				<h2 id="workHeader">Featured Work</h2>
-				<div class="imageContainer">
-					<img class="imageWork" src="resources/otto.png">
-					<h2 class="textWork">Doc Ock</h2>
-					<p class="linkWork">https://github.com/udacity/Appify/</p>
-				</div>
-				<div class="imageContainer">
-					<img class="imageWork" src="resources/rhino.jpg">
-					<h2 class="textWork">Rhino</h2>
-					<p class="linkWork">https://github.com/udacity/Sunflower/</p>
-				</div>
-				<div class="imageContainer">
-					<img class="imageWork" src="resources/kingpin.png">
-					<h2 class="textWork">Kingpin</h2>
-					<p class="linkWork">https://github.com/udacity/Bokeh/</p>
-				</div>
-		</section>
-	</body>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Spooder-Man</title>
+  </head>
+  <body>
+    <header>
+      <img class='logo' alt='logo' src="resources/spideyLogo.jpg">
+      <div class='profile'>
+        <p class='pName'>Spooder-Man</p>
+        <p class='pTag'>The Hero From Queens</p>
+      </div>
+    </header>
+    <section class='bigContainer'>
+      <img class='bigImage' src="resources/SpiderMain.jpg" alt='Spider Main Image'>
+    </section>
+    <h2 class='gallery'> The Rogues Gallery </h2>
+    <section class='container'>
+      <div class='imgContainer'>
+        <img src="resources/kingpin.png" class='badguy' alt='Kingpin Image'>
+        <p>Kingpin</p>
+      </div>
+      <div class='imgContainer'>
+        <img src="resources/otto.png" class='badguy' alt='Otto Image'>
+        <p>Doc Ock</p>
+      </div>
+      <div class='imgContainer'>
+        <img src="resources/rhino.jpg" class='badguy' alt='Rhino Image'>
+        <p>Rhino</p>
+      </div>
+    </section>
+  </body>
 </html>
